@@ -1,8 +1,47 @@
 {
-	"questions": [{
-		"type": "input",
-		"name": "name",
-		"message": "Name",
-		"default": "default"
-	}]
+	"files" : ["index.php","views/mail.html","rest/index.php"],
+    "questions": [
+        {
+            "type": "input",
+            "name": "url",
+            "message": "URL",
+            "default": "contato"
+        },
+        {
+            "type": "input",
+            "name": "title",
+            "message": "Title",
+            "default": "Contato"
+        },
+        {
+            "type": "input",
+            "name": "host",
+            "message": "Email SMTP Host",
+            "default": "smpt.domain.com"
+        },
+        {
+            "type": "input",
+            "name": "user",
+            "message": "Email SMTP user",
+            "default": "user@domain.com"
+        },
+        {
+            "type": "input",
+            "name": "pass",
+            "message": "Email SMTP password",
+            "default": "password"
+        },
+        {
+            "type": "input",
+            "name": "toemail",
+            "message": "Destination email",
+            "default": "email@domain.com"
+        },
+        {
+            "type": "input",
+            "name": "toname",
+            "message": "Destination name",
+            "default": "Name"
+        }
+    ]
 }
