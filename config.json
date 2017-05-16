@@ -1,0 +1,12 @@
+{
+    questions:[
+        {
+            type: "input",
+            name: "name",
+            message: "Name",
+            'default': function(){
+                return path.basename(process.cwd())
+            }
+        }
+    ]
+}
