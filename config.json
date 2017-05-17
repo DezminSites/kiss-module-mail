@@ -17,7 +17,7 @@
             "type": "input",
             "name": "host",
             "message": "Email SMTP Host",
-            "default": "smpt.domain.com"
+            "default": "smtp.domain.com"
         },
         {
             "type": "input",
